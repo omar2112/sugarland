@@ -98,12 +98,6 @@ string controller::playerChoice(area &a1, inventory &i1) {
 		else if (newsplit.at(0) == "weast") {
 			cout << "Weast? What kind of compass are you reading?" << endl;
 		}
-		else if (newsplit.at(0) == "fuck" && newsplit.at(1) == "you") {
-			cout << "Yea well fuck you too." << endl;
-		}
-		else if (newsplit.at(0) == "bitch" || newsplit.at(0) == "shit") {
-			cout << "Watch yo profamity." << endl;
-		}
 		else if (newsplit.at(0) == "about") {
 			cout << "Sugarland - freeware text adventure by qwervo. http://steamcommunity.com/id/qwervo/" << endl;
 		}
